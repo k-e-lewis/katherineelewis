@@ -100,29 +100,33 @@ footer {
     padding: 0px 10px;
 }
 
-.series, 
-.bookone, 
-.booktwo {
+.series {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.seriesdescription p,
-.bookonedescription, 
-.booktwoblurb {
+.seriesdescription p {
     font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
+    font-size: .9rem;
     font-weight: 400;
     width: 610px;
     padding: 0 5px;
     text-align: left;
 }
 
-.booktitle, 
-.bookonetitle, 
-.booktwotitle {
+.bookonedescription, 
+.booktwoblurb {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .8rem;
+    font-weight: 400;
+    width: 450px;
+    padding: 0 5px;
+    text-align: center;
+}
+
+.booktitle {
     font-family: 'Archivo Black', sans-serif;
     font-size: 1.6rem;
     padding: 0;
@@ -131,21 +135,41 @@ footer {
     font-style: italic;
 }
 
+.books {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding-top: 10px;
+}
+
+.bookonetitle, 
+.booktwotitle {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1rem;
+    padding: 0;
+    text-transform: uppercase;
+    color: #1B2137;
+    font-style: italic;
+    text-align: center;
+}
+
 .series img {
-    width: 500px;
+    width: 400px;
     height: auto;
     padding-right: 20px;
 }
 
-.bookone img,
-.booktwo img {
+.bookone img {
     width: 250px;
     height: auto;
     padding-right: 20px;
 }
 
-.bookonereview {
-    font-style: italic;
+.booktwo img {
+    width: 300px;
+    height: auto;
+    padding-right: 20px;
 }
 
 .convergence a,
@@ -301,9 +325,13 @@ aside a:hover,
         flex-shrink: 2;
     }
 
+    .about img {
+        width: 350px;
+    }
+
     .bookone img,
     .series img,
-    .about img {
+    .booktwo img {
         width: 250px;
     }
 
