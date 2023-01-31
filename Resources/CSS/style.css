@@ -297,14 +297,14 @@ aside a:hover,
     }
     
     .bio {
-        font-size: .8rem;
+        font-size: .9rem;
         flex-shrink: 2;
     }
 
     .bookone img,
     .series img,
     .about img {
-        width: 200px;
+        width: 250px;
     }
 
     .postcard img {
@@ -312,7 +312,7 @@ aside a:hover,
     }
 
     .contact {
-        font-size: .8rem;
+        font-size: .9rem;
     }
 
     .name {
