@@ -1,0 +1,320 @@
+html, body {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background: #FCEFEE;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.site-logo h1 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    color: #0A0A0A;
+    padding: 0 20px;
+    letter-spacing: 2.5px;
+}
+
+.site-logo a {
+    color: #0A0A0A;
+    text-decoration: none;
+}
+
+.menu {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    padding: 0 20px;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.menu a {
+    outline: none;
+    text-decoration: none;
+    color: #0A0A0A;
+    font-weight: 600;
+    padding: 10px 10px;
+}
+
+.menu a:link {
+    color: #0A0A0A;
+}
+
+.menu a:hover {
+    color: white;
+    background: gray;
+}
+
+.hidden {
+    display: none;
+}
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+    padding: 25px 10px;
+}
+
+.about img {
+    width: 400px;
+    height: auto;
+    padding: 0 5px;
+}
+
+.name {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.bio {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0 5px;
+    width: 600px;
+    text-align: left;
+}
+
+footer {
+    font-family: 'Open Sans', sans-serif;
+    font-size: .75rem;
+    font-weight: 400;
+    padding: 25px 0px;
+}
+
+.convergence {
+    margin: 10px;
+    padding: 0px 10px;
+}
+
+.series, 
+.bookone, 
+.booktwo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.seriesdescription p,
+.bookonedescription, 
+.booktwoblurb {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    width: 610px;
+    padding: 0 5px;
+    text-align: left;
+}
+
+.booktitle, 
+.bookonetitle, 
+.booktwotitle {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 1.6rem;
+    padding: 0;
+    text-transform: uppercase;
+    color: #1B2137;
+    font-style: italic;
+}
+
+.series img {
+    width: 500px;
+    height: auto;
+    padding-right: 20px;
+}
+
+.bookone img,
+.booktwo img {
+    width: 250px;
+    height: auto;
+    padding-right: 20px;
+}
+
+.bookonereview {
+    font-style: italic;
+}
+
+.convergence a,
+aside a, 
+.contact a  {
+    outline: none;
+    text-decoration: none;
+    color: #1B2137;
+    font-weight: 600;
+    font-style: italic;
+}
+
+.convergence a:link,
+aside a:link,
+.contact a:link {
+    color: #1B2137;
+}
+
+.convergence a:hover,
+aside a:hover, 
+.contact a:hover {
+    color: #9697A9;
+}
+
+.portfolio {
+    margin: 10px;
+    padding: 25px 10px;
+}
+
+.portfolio img {
+    width: 85%;
+    height: auto;
+    padding-top: 10px;
+}
+
+.linkedin p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.contact {
+    margin: 10px;
+    padding: 25px 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.contact h3 {
+    font-family: 'Archivo Black', sans-serif;
+    font-size: 2rem;
+}
+
+.postcard {
+    position: relative;
+    text-align: center;
+}
+
+.postcard img {
+    width: 500px;
+    height: auto;
+    opacity: 50%;
+}
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Dropdown Button */
+.dropbtn {
+    background-color: transparent;
+    color: black;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    padding: 10px 10px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: gray;
+}
+
+@media only screen and (max-width: 941px) {
+    .menu a {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 942px) {
+    .dropdown {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 635px) {
+    .seriesdescription p,
+    .bookonedescription, 
+    .booktwoblurb,
+    .bio {
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    .site-logo h1 {
+        font-size: 1rem;
+        letter-spacing: 0;
+    }
+    
+    .bio {
+        font-size: .8rem;
+        flex-shrink: 2;
+    }
+
+    .bookone img,
+    .series img,
+    .about img {
+        width: 200px;
+    }
+
+    .postcard img {
+        width: 300px;
+    }
+
+    .contact {
+        font-size: .8rem;
+    }
+
+    .name {
+        font-size: 1rem;
+    }
+}
