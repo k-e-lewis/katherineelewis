@@ -200,7 +200,7 @@ aside a:hover,
 }
 
 .portfolio img {
-    width: 55%;
+    width: auto;
     height: auto;
     padding-top: 10px;
 }
