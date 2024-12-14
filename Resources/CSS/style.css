@@ -68,7 +68,7 @@ header {
 }
 
 .about img {
-    width: 500px;
+    width: 50%;
     height: auto;
     padding: 0 5px;
 }
@@ -77,15 +77,6 @@ header {
     font-family: 'Archivo Black', sans-serif;
     font-size: 1.5rem;
     padding: 0;
-}
-
-.bio {
-    font-family: 'Open Sans', sans-serif;
-    font-size: 1rem;
-    font-weight: 400;
-    padding: 0 5px;
-    width: 600px;
-    text-align: left;
 }
 
 footer {
@@ -200,7 +191,7 @@ aside a:hover,
 }
 
 .portfolio img {
-    width: 40%;
+    width: 60%;
     height: auto;
     padding-top: 10px;
 }
@@ -319,14 +310,9 @@ aside a:hover,
         font-size: 1rem;
         letter-spacing: 0;
     }
-    
-    .bio {
-        font-size: .9rem;
-        flex-shrink: 2;
-    }
 
     .about img {
-        width: 75%;
+        width: 500px;
     }
 
     .bookone img,
@@ -336,7 +322,7 @@ aside a:hover,
     }
 
     .portfolio img {
-        width: 75%;
+        width: 500px;
     }
 
     .postcard img {
