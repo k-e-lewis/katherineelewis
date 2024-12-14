@@ -68,7 +68,7 @@ header {
 }
 
 .about img {
-    width: 50%;
+    width: 70%;
     height: auto;
     padding: 0 5px;
 }
@@ -191,7 +191,7 @@ aside a:hover,
 }
 
 .portfolio img {
-    width: 60%;
+    width: 70%;
     height: auto;
     padding-top: 10px;
 }
@@ -312,7 +312,7 @@ aside a:hover,
     }
 
     .about img {
-        width: 500px;
+        width: auto;
     }
 
     .bookone img,
@@ -322,7 +322,7 @@ aside a:hover,
     }
 
     .portfolio img {
-        width: 500px;
+        width: auto;
     }
 
     .postcard img {
