@@ -68,7 +68,7 @@ header {
 }
 
 .about img {
-    width: 400px;
+    width: 55%;
     height: auto;
     padding: 0 5px;
 }
@@ -200,7 +200,7 @@ aside a:hover,
 }
 
 .portfolio img {
-    width: 85%;
+    width: 50%;
     height: auto;
     padding-top: 10px;
 }
