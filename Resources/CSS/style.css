@@ -312,7 +312,7 @@ aside a:hover,
     }
 
     .about img {
-        max-width: 100%;
+        width: 540px;
     }
 
     .bookone img,
@@ -322,7 +322,7 @@ aside a:hover,
     }
 
     .portfolio img {
-        max-width: 100%;
+        width: 540px;
     }
 
     .postcard img {
