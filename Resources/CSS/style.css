@@ -68,7 +68,7 @@ header {
 }
 
 .about img {
-    width: 60%;
+    width: 55%;
     height: auto;
     padding: 0 5px;
 }
@@ -311,18 +311,10 @@ aside a:hover,
         letter-spacing: 0;
     }
 
-    .about img {
-        width: 100%;
-    }
-
     .bookone img,
     .series img,
     .booktwo img {
         width: 250px;
-    }
-
-    .portfolio img {
-        width: 90%;
     }
 
     .postcard img {
